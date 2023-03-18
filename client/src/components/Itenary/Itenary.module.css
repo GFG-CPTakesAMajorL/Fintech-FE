@@ -1,0 +1,53 @@
+.container {
+	background-color: #eeeeee;
+	padding: 2rem 4rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.5rem;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+.title {
+	font-size: 1.2rem;
+	margin-bottom: 0.7rem;
+}
+.files-btn {
+	background-color: #26445c;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 0.4rem 2rem;
+}
+.table > thead > tr > th {
+	padding: 0.6rem 1rem;
+	border-bottom: 1px solid lightgray;
+}
+.table > tbody > tr > td {
+	background-color: white;
+	padding: 0.8rem 1rem;
+	border-bottom: 1px solid lightgray;
+	align-items: center;
+	justify-content: center;
+	padding-left: 2.3rem;
+}
+.file-name {
+	font-weight: 700;
+}
+.delete {
+	font-weight: 700;
+	cursor: pointer;
+}
+.extract {
+	cursor: pointer;
+	width: 6rem;
+	padding: 0.4rem 0.2rem;
+	border-radius: 0.3rem;
+	color: white;
+	background-color: #49a049;
+	border: none;
+}

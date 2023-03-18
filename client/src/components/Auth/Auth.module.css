@@ -1,0 +1,48 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	height: 90vh;
+}
+.header {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 500px;
+	padding: 2rem 4rem;
+	border: 2px solid gray;
+	border-radius: 0.6rem;
+}
+.input {
+	padding: 0.4rem 2rem;
+	outline: none;
+}
+.btn {
+	background-color: #26445c;
+	color: white;
+	font-size: 1rem;
+	font-weight: 500;
+	border: 1px solid #26445c;
+	padding: 0.5rem 0;
+	transition: 0.4s ease all;
+	cursor: pointer;
+}
+.btn:hover {
+	color: #26445c;
+	background-color: #ccc;
+}
+.redirect {
+	text-decoration: none;
+	color: rgb(116, 113, 113);
+}
+.redirect:hover {
+	color: black;
+	text-decoration: underline;
+}

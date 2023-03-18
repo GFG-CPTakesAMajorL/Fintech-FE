@@ -1,0 +1,1 @@
+export const URL_PREFIX = process.env.NODE_ENV === 'production' ? 'https://refinery.ethan-ai.com' : 'https://localhost:5000'
